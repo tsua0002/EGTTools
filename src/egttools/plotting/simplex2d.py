@@ -96,7 +96,7 @@ class Simplex2D:
         >>> from egttools.helpers.vectorized import (vectorized_replicator_equation,
             ... vectorized_barycentric_to_xy_coordinates)
         >>> from egttools.analytical import replicator_equation
-        >>> simplex = Simplex2D() # Where is comes from ? `Not defined`
+        >>> simplex = Simplex2D()
         >>> payoffs = np.array([[1, 0, 0],
             ...        [0, 2, 0],
             ...        [0, 0, 3]])
