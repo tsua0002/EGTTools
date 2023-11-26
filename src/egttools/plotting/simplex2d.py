@@ -64,7 +64,7 @@ class Simplex2D:
         back to the unit simplex, but it is not so simple to transform any value between 0-1 sampled with
         numpy.linspace to a discrete value.
 
-        Therefore, for the discrete case, will will sample directly discrete points in barycentric
+        Therefore, for the discrete case, we will sample directly discrete points in barycentric
         coordinates and only then, translate them into cartesian cooordinates.
 
         Parameters
